@@ -22,3 +22,7 @@ In robotics, the DFS algorithm can be employed in various applications, includin
 - **Search Problems**: When tasked with finding an object or navigating a complex space, DFS can efficiently traverse through paths to find the goal.  
 
 ## Usage Example  
+
+
+https://github.com/user-attachments/assets/c4b187cb-ba2b-4d01-b1af-ec9119fe774a
+
