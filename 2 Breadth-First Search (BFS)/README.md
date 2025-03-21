@@ -1,28 +1,31 @@
-# Depth-First Search (DFS) Algorithm  
+# Breadth-First Search (BFS) Algorithm  
 
 ## Overview  
 
-Depth-First Search (DFS) is a fundamental algorithm used for traversing or searching tree or graph data structures. It starts at the root (or an arbitrary node) and explores as far as possible along each branch before backtracking. This method utilizes a stack data structure, either explicitly or through recursion, to keep track of the path taken.  
+Breadth-First Search (BFS) is a fundamental algorithm used for traversing or searching tree or graph data structures. It starts at the root (or an arbitrary node) and explores the neighbor nodes at the present depth prior to moving on to nodes at the next depth level. This method utilizes a queue data structure to keep track of the nodes that need to be explored.  
 
 ## Algorithm Steps  
 
 1. **Start at the root node** (or any arbitrary node if it's a graph).  
-2. **Mark the node** as visited.  
-3. **Explore each adjacent unvisited node**, recursively applying the same steps.  
-4. **Backtrack** when you reach a dead end, returning to the previous node to explore alternatives.  
+2. **Mark the node** as visited and enqueue it.  
+3. **Dequeue a node** from the front of the queue to explore it.  
+4. **Explore each adjacent unvisited node**, marking it as visited and enqueuing it.  
+5. **Repeat** steps 3 and 4 until the queue is empty.  
 
 ## Usage in Robotics  
 
-In robotics, the DFS algorithm can be employed in various applications, including:  
+In robotics, the BFS algorithm can be employed in various applications, including:  
 
-- **Pathfinding**: DFS can be used to navigate through environments or mazes. It helps robots determine the path to a target location, especially in unstructured environments.  
+- **Pathfinding**: BFS can be used to find the shortest path in unweighted graphs, making it useful for navigation tasks in robots.  
   
-- **Exploration**: Robots can use DFS to explore areas by traversing through accessible nodes, identifying obstacles, and mapping unknown spaces.  
+- **Exploration**: Robots can utilize BFS to systematically explore an environment, ensuring that all areas are visited while efficiently identifying obstacles. 
 
-- **Search Problems**: When tasked with finding an object or navigating a complex space, DFS can efficiently traverse through paths to find the goal.  
+- **Search Problems**: BFS is effective in scenarios where the shortest path to a target is desired, such as in search-and-rescue operations or when navigating cluttered spaces.  
 
 ## Usage Example  
 
 
-https://github.com/user-attachments/assets/c4b187cb-ba2b-4d01-b1af-ec9119fe774a
 
+https://github.com/user-attachments/assets/d85d0f41-f834-4b2d-b153-d84efe6d0c3c
+
+![BreadthFirstSearchBFS](https://github.com/user-attachments/assets/db1ea4b9-dc81-45cc-a1cd-2ed795c9cd04)
