@@ -1,4 +1,4 @@
-# Search Algorithms in Maps, Graphs, and Trees  
+# Search Algorithms for Robotics Path Planning in Maps
 
 This repository features a collection of search algorithms implemented in both MATLAB and Python. Each folder contains a specific search algorithm, allowing you to explore their implementations and understand their workings.  
 
